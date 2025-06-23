@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(4,1fr) / repeat(4,1fr);
+  gap: 10px;
+}
+
+.product img {
+  width: 200px;
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px gray;
+
+}
